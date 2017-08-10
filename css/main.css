@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3812d7;
+  background: #a19adb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2775,7 +2775,7 @@ embed {
 }
 .header {
   background: url("/images/header-bk.jpg");
-  height: 20vh;
+  height: 25vh;
 }
 .header-inner {
   padding: 25px 0 20px;
