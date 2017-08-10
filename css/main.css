@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0945b1;
+  background: #ff6aff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2768,7 +2768,7 @@ h6 {
 }
 .main-inner {
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 50px;
   width: 700px;
 }
 .post {
@@ -2930,7 +2930,7 @@ a {
   margin-top: 0;
 }
 .posts-expand .post {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 .post-wordcount {
   padding-left: 10px;
