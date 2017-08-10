@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #08ffff;
+  background: #fff6d6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2829,6 +2829,9 @@ h6 {
   background: none;
   border: none;
   transition-property: background;
+}
+.menu br {
+  display: none;
 }
 .menu .menu-item a:hover {
   border-bottom-color: #222;
