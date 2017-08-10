@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8abb47;
+  background: #4f90fe;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2886,10 +2886,26 @@ a {
   line-height: 2;
   margin: 0 4px 8px 4px;
   padding: 0 20px;
+  border: none;
 }
 .post-button a {
-  border-bottom: 1px solid #666;
+  border-bottom: 1px solid transparent;
 }
 .post-button a:hover {
   color: #7784ba;
+}
+.posts-expand .post-title a:hover {
+  border-left: #649ab6 20px solid;
+  padding-left: 15px;
+  cursor: pointer;
+  transition: border-width 0.3s linear 0.1s, color 0.2s linear 0.3s;
+}
+.posts-expand .post-title {
+  position: relative;
+  font-size: 26px;
+  font-weight: 400;
+}
+.posts-expand .post-title,
+.posts-expand .post-meta {
+  text-align: left;
 }
