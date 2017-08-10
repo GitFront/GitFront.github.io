@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fff6d6;
+  background: #39ff8e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2788,7 +2788,7 @@ h6 {
 }
 .header {
   background: url("/images/header-bk.jpg");
-  height: 25vh;
+  height: 22vh;
 }
 .header-inner {
   padding: 25px 0 20px;
@@ -2806,6 +2806,9 @@ h6 {
 .logo-line-before,
 .logo-line-after {
   display: none;
+}
+.menu .menu-item {
+  margin: 0;
 }
 .menu .menu-item a {
   font-size: 14px;
