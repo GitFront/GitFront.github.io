@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #39ff8e;
+  background: #a64dff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2954,4 +2954,22 @@ a {
 }
 .post-wordcount {
   padding-left: 10px;
+}
+#particles-oli-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.index-wrapper {
+  width: 0;
+  height: 0;
+  display: none;
+}
+.index-wrapper .head {
+  height: 0;
+  width: 0;
+  display: none;
 }
