@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b44494;
+  background: #0005ec;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2972,4 +2972,18 @@ a {
   height: 0;
   width: 0;
   display: none;
+}
+#music163player {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  left: 30px;
+  bottom: 10%;
+  z-index: 1000;
+  cursor: pointer;
+  animation: rotate 3s infinite linear;
+  -webkit-animation: rotate 3s infinite linear;
+}
+.player {
+  background: transparent;
 }
