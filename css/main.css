@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e3826e;
+  background: #18ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3005,7 +3005,7 @@ a {
 }
 #Thplayer {
   position: fixed;
-  bottom: 0px;
+  bottom: 50px;
   left: -303px;
   display: inline-block;
   width: 304px;
@@ -3016,6 +3016,22 @@ a {
   box-shadow: 1px 1px 2px #ccc;
   z-index: 999;
   transition: left 0.5s;
+}
+#Thplayer th,
+#Thplayer td {
+  border: none !important;
+}
+#Thplayer thead {
+  display: none !important;
+}
+#UserList {
+  margin-top: 8px !important;
+}
+#LoadMore  td {
+  text-align: center;
+}
+#UserList tr {
+  line-height: 20px;
 }
 #player-album {
   width: 80px;
@@ -3147,7 +3163,7 @@ a {
 .player-listbox {
   position: absolute;
   bottom: 100px;
-  left: 0;
+  left: -7px;
   width: 330px;
   height: 0;
   overflow: hidden;
@@ -3160,25 +3176,28 @@ a {
 .player-listbox input {
   outline: none;
   width: 90%;
-  height: 25px;
+  height: 38px;
   margin-top: 20px;
+  border-radius: 40px;
+  border: 1px solid #eee !important;
+  padding: 0 0px 0 20px;
+  background: #eee;
 }
 #btnSearch {
   width: 20px;
   height: 20px;
   position: absolute;
   left: 290px;
-  top: 25px;
+  top: 30px;
   cursor: pointer;
 }
 #UserList tr {
   font-size: 12px;
   padding: 0 10px;
   display: inline-block;
-  height: 30px;
-  line-height: 30px;
+  height: 35px;
+  line-height: 20px;
   width: 93%;
-  color: #565454;
 }
 #UserList tr:hover {
   background: #eee;
@@ -3215,6 +3234,13 @@ a {
   top: 40px;
   position: absolute;
   background: transparent url("/images/2.png") repeat scroll 0% 0%;
+}
+#Thplayer table>tbody>tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+.th-list-table {
+  margin: 0 !important;
+  border: none !important;
 }
 @-moz-keyframes CDturn {
   from {
