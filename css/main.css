@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c8ff2a;
+  background: #e3826e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3005,10 +3005,10 @@ a {
 }
 #Thplayer {
   position: fixed;
-  bottom: 100px;
-  left: -330px;
+  bottom: 0px;
+  left: -303px;
   display: inline-block;
-  width: 350px;
+  width: 304px;
   height: 100px;
   background: #fff;
   box-sizing: border-box;
@@ -3107,7 +3107,7 @@ a {
   position: absolute;
   top: 80px;
   left: 100px;
-  width: 200px;
+  width: 180px;
   height: 2px;
   margin-top: 0;
   background: #6f6e79;
@@ -3140,7 +3140,7 @@ a {
   background-position: -58px -14px !important;
   width: 20px;
   height: 14px;
-  left: 290px;
+  left: 266px;
   top: 22px;
   cursor: pointer;
 }
@@ -3202,7 +3202,7 @@ a {
 }
 #player-flex {
   position: absolute;
-  left: 330px;
+  left: 302px;
   height: 100px;
   top: 0px;
   width: 20px;
