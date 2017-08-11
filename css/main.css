@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffffb9;
+  background: #52ff20;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2775,8 +2775,8 @@ h6 {
   margin-top: 60px;
   margin-bottom: 60px;
   padding: 25px;
-  -webkit-box-shadow: 0 0 18px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 18px rgba(202,203,204,0.5);
+  -webkit-box-shadow: 0 0 30px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 30px rgba(202,203,204,0.5);
 }
 .ds-top-threads li a {
   padding-left: 5px;
@@ -2978,10 +2978,7 @@ a {
     display: none;
   }
   #forkMe img {
-    width: 147px;
-    left: auto !important;
-    right: -16px;
-    top: 3px !important;
+    display: none !important;
   }
   .btn-bar {
     background: #fff !important;
