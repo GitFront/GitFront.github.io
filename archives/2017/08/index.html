@@ -256,7 +256,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-cube"></i> <br />
             
-            作品集
+            项目
           </a>
         </li>
       
@@ -716,14 +716,23 @@
 
 
 <a href="https://github.com/GitFront" id="forkMe"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/c6286ade715e9bea433b4705870de482a654f78a/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png"></a>
- <div id="music163player">
-        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=439915614&auto=0&height=66"></iframe>     </div>
-    </div>
+<!-- THplayer -->
+<div id="Thplayer"></div>
+
+<script type="application/javascript" src="js/src/thplayer.min.js"></script>
 
 
 <!-- 自定义canvas -->
   <script src="/js/src/particles.min.js"></script>
    <script src="/js/src/particles.oli.js"></script>
+<script>
+    $("#Thplayer").thplayer({
+           title: "燕归巢",
+           author: "张杰＆张靓颖",
+           cover: "http://p4.music.126.net/gYwk-n_UWAtOfDZBEV04dQ==/7699879929738059.jpg",
+           music: "http://p2.music.126.net/bunDefkBnWf_XekMxxdLNA==/19147994997736977.mp3"
+    });
+</script>
 
 </body>
 </html>
