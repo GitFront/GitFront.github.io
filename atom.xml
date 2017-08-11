@@ -195,9 +195,9 @@
     <link href="http://yoursite.com/2017/08/10/git%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8(%E4%B8%80)/"/>
     <id>http://yoursite.com/2017/08/10/git的基本使用(一)/</id>
     <published>2017-08-09T18:18:20.000Z</published>
-    <updated>2017-08-09T18:21:12.073Z</updated>
+    <updated>2017-08-11T00:00:34.690Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Git-版本控制工具"><a href="#Git-版本控制工具" class="headerlink" title="Git -版本控制工具"></a>Git -版本控制工具</h1><h2 id="Git简介"><a href="#Git简介" class="headerlink" title="Git简介"></a>Git简介</h2><ul>
+    <content type="html"><![CDATA[<h2 id="Git简介"><a href="#Git简介" class="headerlink" title="Git简介"></a>Git简介</h2><ul>
 <li><a href="https://git-scm.com" target="_blank" rel="external">官网</a></li>
 <li><a href="https://git-scm.com/book/zh/v2" target="_blank" rel="external">文档</a></li>
 </ul>
@@ -303,7 +303,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Git-版本控制工具&quot;&gt;&lt;a href=&quot;#Git-版本控制工具&quot; class=&quot;headerlink&quot; title=&quot;Git -版本控制工具&quot;&gt;&lt;/a&gt;Git -版本控制工具&lt;/h1&gt;&lt;h2 id=&quot;Git简介&quot;&gt;&lt;a href=&quot;#Git简介&quot; class=&quot;headerlink&quot; title=&quot;Git简介&quot;&gt;&lt;/a&gt;Git简介&lt;/h2&gt;&lt;ul&gt;
+      &lt;h2 id=&quot;Git简介&quot;&gt;&lt;a href=&quot;#Git简介&quot; class=&quot;headerlink&quot; title=&quot;Git简介&quot;&gt;&lt;/a&gt;Git简介&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://git-scm.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官网&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/zh/v2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;文档&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

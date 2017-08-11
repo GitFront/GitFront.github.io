@@ -1919,7 +1919,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0005ec;
+  background: #65beff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2972,6 +2972,11 @@ a {
   height: 0;
   width: 0;
   display: none;
+}
+@media (max-width: 768px) {
+  #particles-oli-wrapper {
+    display: none;
+  }
 }
 #music163player {
   width: 100px;
