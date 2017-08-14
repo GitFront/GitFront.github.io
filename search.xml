@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[在博客文章中插入图片]]></title>
     <url>%2F2017%2F08%2F15%2F%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[Git简介 官网 文档 什么是Git Git是一款免费、开源的分布式 版本控制软件 VCS - Version Control System 由 Linus Torvalds（林纳斯·托瓦兹）于2005年发布。 最初目的是为更好地管理 Linux内核 开发而设计 Git使用方式：1 命令 、2 图形化界面（GUI）]]></content>
   </entry>
   <entry>
     <title><![CDATA[git的基本使用(二)]]></title>
