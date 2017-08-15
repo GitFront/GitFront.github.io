@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-15T18:29:58.685Z</updated>
+  <updated>2017-08-15T18:38:30.869Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,18 +16,18 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo入门学习:文章图片存储到七牛云</title>
+    <title>hexo入门学习:  文章图片存储到七牛云</title>
     <link href="http://yoursite.com/2017/08/16/hexo%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0-%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8%E5%88%B0%E4%B8%83%E7%89%9B%E4%BA%91/"/>
     <id>http://yoursite.com/2017/08/16/hexo入门学习-文章图片存储到七牛云/</id>
     <published>2017-08-15T17:50:57.000Z</published>
-    <updated>2017-08-15T18:29:58.685Z</updated>
+    <updated>2017-08-15T18:38:30.869Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="一-注册七牛云账号"><a href="#一-注册七牛云账号" class="headerlink" title="一. 注册七牛云账号"></a>一. 注册七牛云账号</h3><p>登录<a href="https://www.qiniu.com/七牛云网站，注册一个自己的账号即可。" target="_blank" rel="external">https://www.qiniu.com/七牛云网站，注册一个自己的账号即可。</a></p>
+    <content type="html"><![CDATA[<p><img src="http://ouqmoaex1.bkt.clouddn.com/myVideo.jpg" alt="文章图片存储到七牛云"><br><a id="more"></a></p>
+<h3 id="一-注册七牛云账号"><a href="#一-注册七牛云账号" class="headerlink" title="一. 注册七牛云账号"></a>一. 注册七牛云账号</h3><p>登录<a href="https://www.qiniu.com/七牛云网站，注册一个自己的账号即可。" target="_blank" rel="external">https://www.qiniu.com/七牛云网站，注册一个自己的账号即可。</a></p>
 <h3 id="二-创建存储空间"><a href="#二-创建存储空间" class="headerlink" title="二. 创建存储空间"></a>二. 创建存储空间</h3><ul>
 <li>1.点击立即添加</li>
 </ul>
 <p><img src="http://ouqmoaex1.bkt.clouddn.com/step1.png" alt="文章图片存储到七牛云"></p>
-<a id="more"></a>
 <ul>
 <li>2.填写空间名称、选择存储区域和访问控制</li>
 </ul>
@@ -43,7 +43,7 @@
     
     <summary type="html">
     
-      用七牛云存储来托管图片
+      &lt;p&gt;&lt;img src=&quot;http://ouqmoaex1.bkt.clouddn.com/myVideo.jpg&quot; alt=&quot;文章图片存储到七牛云&quot;&gt;&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
