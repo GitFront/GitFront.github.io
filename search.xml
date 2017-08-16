@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2F2017%2F08%2F16%2Fhexo%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0-%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8%E5%88%B0%E4%B8%83%E7%89%9B%E4%BA%91%2F</url>
-    <content type="text"><![CDATA[1234title: &apos;hexo入门学习: hexo文章中插入图片(一)&apos;date: 2017-08-16 01:50:57tags: hexocategories: hexo 在hexo文章中插入图片有两种方式： 使用本地路径：将图片上传到本地 将图片托管到七牛云 ​ 下面介绍第二种方式 一. 注册七牛云账号登录 七牛云网站，注册一个自己的账号即可。 二. 创建存储空间 1.点击立即添加 2.填写空间名称、选择存储区域和访问控制 3.选择照片 三. 引用照片链接 四. 使用粘贴到你想使用的地方，当然也可以使用浏览器直接打开，主要是在hexo中使用，在Markdown中采用 1![图片加载失败时的替换文字](刚刚复制的图片链接)]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[new一个]]></title>
-    <url>%2F2017%2F08%2F15%2Fnew%E4%B8%80%E4%B8%AA%2F</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
-    <title><![CDATA[在博客文章中插入图片]]></title>
-    <url>%2F2017%2F08%2F15%2F%E5%9C%A8%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%2F</url>
-    <content type="text"><![CDATA[Git简介 官网 文档 什么是Git Git是一款免费、开源的分布式 版本控制软件 VCS - Version Control System 由 Linus Torvalds（林纳斯·托瓦兹）于2005年发布。 最初目的是为更好地管理 Linux内核 开发而设计 Git使用方式：1 命令 、2 图形化界面（GUI）]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[git的基本使用(二)]]></title>
-    <url>%2F2017%2F08%2F10%2Fgit%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8(%E4%BA%8C)%2F</url>
-    <content type="text"><![CDATA[Git -版本控制工具分支 查看分支：git branch，当前分支会标有一个* 创建分支：git branch [分支名称] 分支中的代码，与创建那一刻主分支中的内容完全相同 切换分支：git checkout [分支名称] (简写)创建并切换分支：git checkout -b [分支名称] 合并分支：git merge [分支名称]，即：将其他分支合并到当前分支 删除分支：git branch -d [分支名称] 合并分支冲突 注意：合并分支时出现冲突只能手动处理文件，然后，再次提交 123456789101112131415161718192021222324如果在一个从分支中做了修改，然后，在主分支中也做了修改。此时，将这个从分支合并到主分支的时候，就会出现合并冲突的问题！在两个分支中同时修改了一个文件中的内容，此时，就会造成合并分支冲突，如果发生了合并冲突，需要我们手动解决！1 决定保留哪个分支中的内容2 重新提交操作：将 hotfix 分支，合并到cart分支中HEAD：表示当前分支hotfix： 表示被合并分支&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD &lt;span&gt;第三次修改的内容&lt;/span&gt; &lt;cart&gt;这是在 cart 分支中提交的内容&lt;/cart&gt;======= &lt;span&gt;第三次修改的内容 --- hotfix 修改bug&lt;/span&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; hotfix 分支的说明 1 公司开发的项目都是由多个分支组成：主分支 + dev分支 2 项目经理新建项目仓库，所有的程序员都从这个仓库中获取代码，完成开发任务 3 项目经理：搭建设计仓库，创建master分支，以及dev分支（以及 debug分支等） 4 所有的程序员在 dev分支 上进行开发，并且还有自己维护的分支 5 程序员在分支上完成开发任务后，会提交合并请求 6 项目经理安排测试，如果没有问题了，最后才会与 master 分支合并 github github官网 开源中国-Git 123在 GitHub 上免费托管的 Git 仓库，任何人都可以看到喔（但只有你自己才能改）。所以，不要把敏感信息放进去。 github与git 1 git 是一个版本控制工具 2 github就是一个网站，这个网站提供了 git 服务器的功能 将代码提交到远程仓库（HTTPS） 1 在本地创建仓库 git init git config 2 新建 README.md 文件，并输入任意内容 3 将 README.md 提交到本地 git add git commit 4 在github中新建仓库，并拿到仓库地址 5 使用命令 git push [仓库地址] master 提交内容到github的默认分支 6 刷新github仓库页面，在线修改 README.md 文件，并提交 7 使用命令 git pull [仓库地址] master 获取仓库中的最新内容 获取远程仓库内容 命令：git pull [仓库地址] [分支名称] 获取远程仓库最新内容 命令：git clone [仓库地址] [自定义本地仓库名] 将整个仓库克隆到本地 实例：git clone git://github.com/jquery/jquery.git myJQ 简化操作 1 git remote add origin [仓库地址] 作用：使用origin代替 仓库地址 ，方便操作 origin就相当于js的变量，[仓库地址]就相当于变量的值 2 git push -u origin master 作用：-u参数将origin与master连在一起 3 使用简化命令 git push origin 就代替原来：”git remote add origin [仓库地址]” SSH介绍 非对称加密、公钥和私钥 12345678910111213141516GitHub 需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而 Git 支持 SSH 协议，所以，GitHub 只要知道了你的公钥，就可以确认只有你自己才能推送，从而省去每次输入密码的操作。可以同时设置多个SSH key，比如：你可以在公司电脑提交需要一个key，回家后自己的电脑提交也需要一个keyssh是一种安全的传输模式github要求推送代码的用户是合法的，所以每次推送时候都要输入账号密码，用以验证你是否为合法用户，为了省去每次都要输入密码的步骤，采用shh公钥，密钥也就是你说的sshkey来验证你是否为合法用户在你的电脑生成了一个唯一的ssh公钥和私钥，公钥放到github上面，当你推送的时候，git就会匹配你的私钥是否跟github上面的公钥是配对的，正确就认为你是合法的，允许推送。sshkey可以理解为是你的身份标识，放在github上面表明你是这个项目的一个开发人员，但是别人是可以截获的，你本机的私钥别人就无法截获，sshkey就可以保证每次传输都是安全的。 将代码提交到远程仓库（SSH） 1 创建SSH Key：ssh-keygen -t rsa 2 在文件路径 C:\用户\当前用户名\ 找到 .ssh 文件夹 3 文件夹中有两个文件： 私钥：id_rsa 公钥：id_rsa.pub 4 在 github -&gt; settings -&gt; SSH and GPG keys页面中，新创建SSH key 5 粘贴 公钥 id_rsa.pub 内容到对应文本框中 5 在github中新建仓库或者使用现在仓库，拿到git@github.com:用户名/仓库名.git 6 此后，再次SSH方式与github“通信”，不用输入密码确认身份了 最佳实践 先获取再提交，即：先pull再push 获取跟新的其他方式：fetch pull和fetch的区别 github搭建博客 使用github服务器的 gh-pages 分支 12345678910111 在本地工作目录使用git初始化 `git init`2 创建自己的博客项目3 将创建好的博客添加到暂存区 `git add [文件路径]`4 本地提交： `git commit -m &quot;第一个博客&quot;`5 创建分支：`git branch gh-pages` 分支名称固定！6 切换分支：`git checkout gh-pages`7 提交到github：`git push [github仓库地址] gh-pages`8 查看github中对应的仓库中，是不是提交到了 &quot;gh-pages&quot; 分支9 访问：&lt;github用户名&gt;.github.io/&lt;仓库名&gt;/&lt;文件名&gt;10 默认会访问 index.html 动态页面：.jsp / .php / .asp / .aspx Git软件（GUI 图形化界面） SourceTree / TortoiseGit TortoiseGit使用教程 Git -其他操作文件对比 命令：git diff：将工作区与暂存区或者仓库对比 说明：如果暂存区没有文件，就会将工作区代码与上一次提交对比 1 工作区 与 暂存区对比 2 工作区 与 仓库 对比 命令：git diff --cached：将当前暂存区与仓库对比 命令：git diff [版本号1] [版本号2] [对比的文件路径] 对比仓库区两次提交的差异 撤销和删除 git reset HEAD 文件名 从暂存区撤销（结果：变为 未 add 状态） git checkout -- test.txt 撤销文件变化 一种是 readme.txt 自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态； 一种是 readme.txt 已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。 rm [文件名称]：删除文件（物理删除） git rm [文件名称]：从仓库中删除文件 git rm --cached [文件名称]：从暂存区删除文件 结构说明123456hooks： 存储钩子的文件夹logs： 存储日志的文件夹refs： 存储指向各个分支的指针（SHA-1标识）文件objects：存放git对象config： 存放各种设置文档HEAD： 指向当前所在分支的指针文件路径，一般指向refs下的某文件]]></content>
+    <title><![CDATA[hexo入门学习: hexo文章中插入图片(二)]]></title>
+    <url>%2F2017%2F08%2F16%2Fhexo%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0-hexo%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87-%E4%BA%8C%2F</url>
+    <content type="text"><![CDATA[在hexo文章中插入图片有两种方式： 使用本地路径：将图片上传到本地 将图片托管到七牛云： 取图片链接在博客里引入 下面介绍第一种方式 一. 修改配置文件打开主页配置文件_config.yml，把post_asset_folder:设置为:true 123456789101112131415# Writingnew_post_name: :title.md # File name of new postsdefault_layout: posttitlecase: false # Transform title into titlecaseexternal_link: true # Open external links in new tabfilename_case: 0render_drafts: falsepost_asset_folder: truerelative_link: falsefuture: truehighlight: enable: true line_number: true auto_detect: false tab_replace: 二. 安装图片上传插件在你的hexo根目录下，右键点击Git Bash Here，输入npm install hexo-asset-image --save 三. 新建博客执行hexo new &quot;博客文章名称&quot;，来生成博文时会在/source/_posts文件夹内除了博客文章名称.md文件外还有一个同名的文件夹(这个文件夹就是用来存储你要在博客插入的图片)。 四. 使用把你的图片放在上一步自动生成的文件夹内，打开你的博客.md文件，输入: 1![图片加载失败时的替换文字](图片名+后缀) 列如： ![hello](1.jpg)]]></content>
       <categories>
-        <category>前端工具</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[git的基本使用(一)]]></title>
-    <url>%2F2017%2F08%2F10%2Fgit%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8(%E4%B8%80)%2F</url>
-    <content type="text"><![CDATA[Git简介 官网 文档 什么是Git Git是一款免费、开源的分布式 版本控制软件 VCS - Version Control System 由 Linus Torvalds（林纳斯·托瓦兹）于2005年发布。 最初目的是为更好地管理 Linux内核 开发而设计 Git使用方式：1 命令 、2 图形化界面（GUI） Git的优势 Git的速度快，性能好 有效、高速的处理从很小到非常大的项目版本管理 采用分布式存储方式，不需要服务器就可以运行 使得源代码的发布和交流极其方便 两种版本控制工具 集中式版本控制工具: SVN 分布式版本控制工具: Git 版本控制12版本控制是一种记录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统。 集中式和分布式的区别 1 集中式依赖于远程服务器，在没有网络的情况下无法提交 2 所有开发者都共享一个远程服务器 3 分布式直接进行本地存储，不依赖与远程服务器（可有可无） 4 没有网络的情况下，也可以工作，有网了，将本地修改内容全部提交到远程服务器 Git的安装Git的基本使用 查看帮助：git --help 查看某一命令帮助：git add -h 基础配置 需要配置：user.name 和 user.email 作用：每次 Git 提交时都会引用这两条信息，记录是谁提交了更新 配置用户名： git config --global user.name &quot;用户名&quot; 配置邮箱： git config --global user.email &quot;邮箱地址&quot; 查看配置信息： git config --list 使用 --global 实现全局配置，任何位置使用git都有效 初始化仓库 命令：git init 作用：使用Git管理项目的初始化操作，会创建一个名为.git的隐藏目录 一般是在项目的根目录执行这个命令 .git目录: 12它是 Git 用来保存元数据和对象数据库的地方。该目录非常重要，每次克隆镜像仓库的时候，实际拷贝的就是这个目录里面的数据。 跟踪文件 作用：将文件由 工作区 添加到 暂存区（Index），暂存文件 命令：git add 文件路径 例如： git add ./README.md git add --all 或者 git add -A（简写） 添加所有文件 git add a.txt b.txt 同时添加两个文件 git add *.js 添加当前目录下的所有js文件 提交更新 作用：将文件由 暂存区 添加到 仓库（HEAD） git commit -m &quot;提交说明&quot; 查看文件状态 命令：git status 命令：git stauts -s 简化日志输出格式 提交代码 三个存储分区的说明： 1231 工作区：开发者的工作目录2 暂存区：临时存放工作目录中变更的文件3 仓库 ：存储提交之后的文件目录 文件的三种状态：12345已修改（modified）=&gt; 已暂存（staged）=&gt; 已提交（committed）已修改表示修改了某个文件，但还没有提交保存已暂存表示把已修改的文件放在下次提交时要保存的清单中已提交表示该文件已经被安全地保存在本地git仓库中了 Git工作流程1231 在工作目录中修改某些文件。2 对修改后的文件进行快照，然后保存到暂存区域。3 提交更新，将保存在暂存区域的文件快照永久转储到.git目录中。 查看提交日志 命令：git log 查看详细的提交信息 命令：git log --oneline 简洁的日志信息 命令：git reflog 查看所有提交变更操作 版本回退 作用：恢复到已经提交的某一个版本中 命令：git reset --hard [版本号] 作用：回退到指定的版本号 其他方式：git reset --hard head~1 ~1 表示回到上一次提交 ~2 表示上上一次提交 ~0 表示当前提交 忽略文件 作用：忽略一些不需要被git管理的文件 12345678910111 在与 .git 隐藏目录同级的目录中创建 `.gitignore` 文件2 打开 .gitignore 文件，加入忽略文件，例如：/test.html3 路径是相对于当前 .gitignore文件 的路径路径写法：/css/a.css/css/*.css/a.html#忽略 build/ 目录下的所有文件build/ 忽略文件的说明 1 使用 # 表示注释，例如：# 这是注释内容 2 使用 * 表示通配符，匹配所有文件，例如：/css/*.css]]></content>
-      <categories>
-        <category>前端工具</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[shell命令的使用]]></title>
-    <url>%2F2017%2F08%2F10%2Fshell%E5%91%BD%E4%BB%A4%E7%9A%84%E4%BD%BF%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[Shell 介绍 Shell：壳（区别于：核） 普通意义上的shell就是可以接受用户输入命令的程序。它之所以被称作shell是因为它隐藏了操作系统低层的细节。 Bourne-Again shell（bash）：应用非常广泛的一种shell工具，是一个命令处理器，bash也是大多数Linux系统默认的Shell。 常用 shell 命令12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758# change directory 改变目录cd 01-教学资料 # 进入到 01-教学资料 文件夹# cd .. # 返回上一级目录# list 展示当前目录列表ls# ls -l # 以列表的形式展示目录# ls -a # 展示全部目录# ls -al # 相当于 ls -a -l# ls -al 01-教学资料 # 展示 01-教学资料 中所有的目录# 打印当前目录# print work directorypwd# 清空当前窗口内容clear# 创建文件夹mkdir 文件夹名称# mkdir js css images # 同时创建多个文件夹# 创建文件touch 文件名称# touch css/index.css# 查看文件全部内容cat 文件名称# 按 q 键退出查看 # 查看文件部分内容less 文件名称# 内容太多，可以按 空格键 查看剩余内容# 查看到最后，需要按 q键 退出查看# 删除文件rm 文件名称rm -r css# 删除空文件夹rmdir 文件夹名称# 移动文件（相当于剪切）mv 文件名称 目标目录# mv index.html css/pipixia.html # 移动的同时，修改文件名称# mv index.html demo.html # 重命名# 复制文件cp 文件名称 新文件名称# cp index.html js/index1.html# 自动补全 按：tab键# 如果有多种情况，连按两次 tab键 会把所有的文件名称打印出来# 重定向 将内容 Hello-World 添加到 test.txt 文件中echo Hello-World &gt; test.txt# ls &gt; test.txt # 覆盖，将ls命令的结果输出到 test.txt 文件中# ls &gt;&gt; test.txt # 追加 vi编辑器 vi的3种模式 - 图例 3种模式 1 命令模式 2 插入模式 3 底行模式 每种模式，能够执行的操作是不同的 插入模式 在命令模式下，输入i或a，就可以进行编辑了 底行模式1234567891011121314151617181920212223242526272829303132# 使用 vivi 文件路径# 保存:w # :w filenme #另存为# 退出:q# 保存并退出:wq# 撤销更改，返回到上一次保存的状态:e!# 不保存强制退出:q!# 展示行号:set nu# 删除行号 :set nonu第一种是，手动显示：在vim命令行模式下输入 ：set nu 取消显示：在vim命令行模式下输入： set nonu第二种是，永久自动显示：我们修改一个配置文件。我们输入命令：vim ~/.vimrc打开后是一个空文件，我们添加 set nu，保存退出，再次进入vim编辑器，就会自动显示出行号了。大笑如此简单 命令模式123456789101112131415161718192021222324252627# 保存并退出，大写ZZ# 辙销操作，可多次使用u# 删除当前行dd# 复制当前行yy# 粘贴内容p# 向前翻页ctrl+b# 向后翻页ctrl+f# 进入编辑模式，i #当前光标处插入a #当前光标后插入A #光标移动到行尾o #当前行下面插入新行O #当前行上面插入新行]]></content>
-      <categories>
-        <category>linux</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>linux</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo入门学习: hexo文章中插入图片(一)]]></title>
+    <url>%2F2017%2F08%2F16%2Fhexo%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0-%E6%96%87%E7%AB%A0%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87(%E4%B8%80)%2F</url>
+    <content type="text"><![CDATA[在hexo文章中插入图片有两种方式： 使用本地路径：将图片上传到本地 将图片托管到七牛云: 取图片链接写在博客里 下面介绍第二种方式 一. 注册七牛云账号登录 七牛云网站，注册一个自己的账号即可。 二. 创建存储空间 1.点击立即添加 2.填写空间名称、选择存储区域和访问控制 3.选择照片 三. 引用照片链接 四. 使用粘贴到你想使用的地方，当然也可以使用浏览器直接打开，主要是在hexo中使用，在Markdown中采用 1![图片加载失败时的替换文字](刚刚复制的图片链接)]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
 </search>
